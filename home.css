@@ -4,6 +4,20 @@ body{
 .light-mode {
   background-color: white !important; 
 }
+#coupon{
+ 
+  background-image: url("coupon.png");
+  height: 635px;
+  width: 28%;
+  background-size: cover;
+  position:fixed;
+  margin-left:37%;
+  margin-top: 6.8%;
+  z-index: 10;
+  display:none;
+  cursor:pointer;
+  
+}
 
 .navbar .fa-lightbulb-o{
   font-size: 45px;
@@ -99,7 +113,7 @@ body{
 
 .content{
   height:auto;
-  /* background-color: rgba(148, 206, 202, 0.485); */
+  
   
   background-size: 100%;  
   border-radius: 1cm;
@@ -232,7 +246,7 @@ footer .footercontent li {
 @media screen and (max-width:1200px){
   .content2sec{
     height: 100px;
-    background-color: rgb(199, 96, 96);
+    
     width: 32%; 
     float:left;
     background-color: #51d9ce;
@@ -247,11 +261,10 @@ footer .footercontent li {
   }
   
 }
-
-@media screen and (max-width:900px){
+@media screen and (max-width:1000px){
   .content2sec{
     height: 50px;
-    background-color: rgb(199, 96, 96);
+    
     width: 47%; 
     float:left;
     background-color: #51d9ce;
@@ -264,12 +277,63 @@ footer .footercontent li {
     margin-top: 12%;
     
   }
+  #coupon{
+ 
   
+    height: 600px;
+    width: 40%;
+   
+    margin-left:30%;
+    margin-top: 30%;
+    
+  }
 }
+
+@media screen and (max-width:900px){
+  .content2sec{
+    height: 50px;
+    
+    width: 47%; 
+    float:left;
+    background-color: #51d9ce;
+    border-radius: 0.5cm;
+    margin:1%;
+    padding-top: 15px;
+  }
+  .nav{
+    justify-content: center; 
+    margin-top: 12%;
+    
+  }
+  #coupon{
+    height: 700px;
+    width: 40%;
+   
+    margin-left:14%;
+    margin-top: 15%;
+ 
+  
+  }
+}
+@media screen and (max-width:800px){
+  
+  
+  #coupon{
+    height: 700px;
+    width: 40%;
+   
+    margin-left:14%;
+    margin-top: 15%;
+ 
+  
+  }
+}
+
+
 @media screen and (max-width:600px){
   .content2sec{
     height: 50px;
-    background-color: rgb(199, 96, 96);
+    
     width: 47%; 
     float:left;
     background-color: #51d9ce;
@@ -282,6 +346,17 @@ footer .footercontent li {
     margin-top: 20%;
     
   }
+  #coupon{
+ 
+  
+    height: 650px;
+    width: 80%;
+   
+    margin-left:12%;
+    margin-top: 15%;
+    
+  }
+  
   
 }
 
@@ -289,7 +364,7 @@ footer .footercontent li {
 @media screen and (max-width:550px){
   .content2sec{
     height: 50px;
-    background-color: rgb(199, 96, 96);
+  
     width: 47%; 
     float:left;
     background-color: #51d9ce;
@@ -302,6 +377,17 @@ footer .footercontent li {
     margin-top: 30%;
     
   }
+  #coupon{
+ 
+  
+    height: 600px;
+    width: 80%;
+   
+    margin-left:14%;
+    margin-top: 30%;
+    
+  }
+  
   
 }
 
